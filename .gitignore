@@ -1,0 +1,11 @@
+*.vcd
+*.log
+*.out
+*.wlf
+work/
+transcript
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
