@@ -1,4 +1,4 @@
-module fifo(clk, rst, buf_in, buf_out, wr_en, rd_en, buf_empty, buf_full, fifo_counter, wr_pt, rd_pt);
+module SyncFIFO(clk, rst, buf_in, buf_out, wr_en, rd_en, buf_empty, buf_full, fifo_counter, wr_pt, rd_pt);
   // Input signals
   input clk, rst, wr_en, rd_en;
   input [7:0] buf_in;
